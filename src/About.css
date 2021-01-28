@@ -1,0 +1,54 @@
+.card-container{
+    margin: 40px 0 40px 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.image-container{
+    height: 100%;
+    overflow: hidden;
+}
+.section-testimonials img{
+    clip-path: 50%;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+}
+ .map{
+     height: 500px;
+     width: 100%;
+     border: none;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+.card-title{
+    
+        margin-bottom: 2rem;
+        text-align: center;
+        letter-spacing: 0.5rem;
+
+}
+button{
+    display: inline-block;
+    background: rgb(122, 26, 26);
+    color: whitesmoke;
+    padding: 0.8rem 1.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+}
+
+
+@media screen and (max-width: 1200px){
+    .section-about{
+    display: block;
+    }
+}
+
+
+
