@@ -28,13 +28,14 @@ export const Portfolio = () => {
             
             <main>
                 <section className='card'>
-                    <img src='/images/portfolio2.jpg' alt='' />
+                    <img src='/images/portfolio2.jpg' alt='image' />
                     <div>
                         <h3>Wedding Ceremony</h3>
                         <p>
-                            Birthday comes with happiness. However, birthday without pictures leave you with fading memories. the good thing about birthday is that with pictures you tend to look back into past memories and appreciate those who stood by you in your past. Don't celebrate your day without a photographer,
+                            We take  every details seriouly when it comes to taking a long lasting and quality pictures that will create unbelievable memories.
+                            Call on us for your pre-wedding shoots, wedding and post-wedding.
                         </p>
-                        <a href='/' className='btn'>Wedding Events</a>
+                        <a href='/Contact' className='btn'>Wedding Events</a>
                     </div>
                 </section>
                 <section className='card' 
@@ -48,13 +49,13 @@ export const Portfolio = () => {
                 data-aos-anchor-placement="top-center"
                 
                 >
-                    <img src='/images/portfolio1.jpg' alt='' />
+                    <img src='/images/portfolio1.jpg' alt='image' />
                     <div>
                         <h3>Outdoor Events</h3>
                         <p>
-                            Birthday comes with happiness. However, birthday without pictures leave you with fading memories. the good thing about birthday is that with pictures you tend to look back into past memories and appreciate those who stood by you in your past. Don't celebrate your day without a photographer,
+                            Reach out to us on your outdoor events. we cover every yards you intend to cover with great professional touch.  We brigthen your day and give you a wonderful event.
                         </p>
-                        <a href='/' className='btn'>Outdoor Buzz</a>
+                        <a href='/Contact' className='btn'>Outdoor Buzz</a>
                     </div>
                 </section>
                 <section className='card'
@@ -68,13 +69,13 @@ export const Portfolio = () => {
                 data-aos-anchor-placement="top-center"
                 
                 >
-                    <img src='/images/portfolio3.jpg' alt='' />
+                    <img src='/images/portfolio3.jpg' alt='image' />
                     <div>
                         <h3>Birthday Ceremony</h3>
                         <p>
                             Birthday comes with happiness. However, birthday without pictures leave you with fading memories. the good thing about birthday is that with pictures you tend to look back into past memories and appreciate those who stood by you in your past. Don't celebrate your day without a photographer,
                         </p>
-                        <a href='/' className='btn'>Birthday Ceremony</a>
+                        <a href='/Contact' className='btn'>Birthday Ceremony</a>
                     </div>
                 </section>
                 <section className='card'
@@ -92,7 +93,7 @@ export const Portfolio = () => {
                     <div>
                         <h3>Cooperate Events</h3>
                         <p>
-                            Birthday comes with happiness. However, birthday without pictures leave you with fading memories. the good thing about birthday is that with pictures you tend to look back into past memories and appreciate those who stood by you in your past. Don't celebrate your day without a photographer,
+                            Call on us for your important cooperate event. We take care of both outdoor and indoor events leaving you gasping for more. Give us that call, let's add spices to your events.
                         </p>
                         <a href='/' className='btn'>Cooperate Events</a>
                     </div>
@@ -107,11 +108,11 @@ export const Portfolio = () => {
                 data-aos-once="false"
                 data-aos-anchor-placement="top-center"
                 >
-                    <img src='/images/portfolio4.jpg' alt='' />
+                    <img src='/images/portfolio4.jpg' alt='image' />
                     <div>
                         <h3>Reality TV Shows</h3>
                         <p>
-                            Birthday comes with happiness. However, birthday without pictures leave you with fading memories. the good thing about birthday is that with pictures you tend to look back into past memories and appreciate those who stood by you in your past. Don't celebrate your day without a photographer,
+                            Yeepee!!. We are ready to give your events a scintillating coverage. Yes. Lets make your live events a reality.
                         </p>
                         <a href='/' className='btn'>Reality TV Shows</a>
                     </div>
@@ -260,8 +261,8 @@ export const Portfolio = () => {
 
   <Carousel.Item>
     <Image
-      className="d-block w-100 h-75"
-      src="./images/slide/slide11.jpg"
+      className="d-block w-100"
+      src="./images/slide/slide11.jpg" height ={550}
       alt="Third slide"
     />
 

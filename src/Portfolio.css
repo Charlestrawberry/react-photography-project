@@ -103,7 +103,10 @@ img{
     color: whitesmoke;
     padding: 0.8rem 1.8rem;
     margin-top: 2rem;
+    margin-left: 90px;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn:hover{

@@ -14,16 +14,17 @@
     border-radius: 50%;
     height: 50px;
     width: 50px;
-
+    margin-top: 60px;
 }
- .map{
-     height: 500px;
-     width: 100%;
-     border: none;
-     justify-content: center;
-     align-items: center;
- }
-
+ 
+.section-testimonials p{
+    text-align: left;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    width: 100%;
+    
+    
+}
 
 .card-title{
     

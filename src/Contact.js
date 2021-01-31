@@ -13,10 +13,9 @@ export const Contact = () => {
             
         <div className='container-fluid'>
             <Row>
-                <Col> <ContactLeft title = 'Contact Us Today'
+                <Col> <ContactLeft /> </Col> 
                 
-                /> </Col>
-                <Col> <LoginForm /> </Col>
+                <Col> <LoginForm />  </Col>
             </Row>
             <br></br><br></br><br></br>
             <div>
