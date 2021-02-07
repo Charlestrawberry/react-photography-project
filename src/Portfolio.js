@@ -28,7 +28,7 @@ export const Portfolio = () => {
             
             <main>
                 <section className='card'>
-                    <img src='/images/portfolio2.jpg' alt='image' />
+                    <img src='/images/portfolio2.jpg' alt='portimg' />
                     <div>
                         <h3>Wedding Ceremony</h3>
                         <p>
@@ -49,7 +49,7 @@ export const Portfolio = () => {
                 data-aos-anchor-placement="top-center"
                 
                 >
-                    <img src='/images/portfolio1.jpg' alt='image' />
+                    <img src='/images/portfolio1.jpg' alt='portimg' />
                     <div>
                         <h3>Outdoor Events</h3>
                         <p>
@@ -69,7 +69,7 @@ export const Portfolio = () => {
                 data-aos-anchor-placement="top-center"
                 
                 >
-                    <img src='/images/portfolio3.jpg' alt='image' />
+                    <img src='/images/portfolio3.jpg' alt='portimg' />
                     <div>
                         <h3>Birthday Ceremony</h3>
                         <p>
@@ -89,7 +89,7 @@ export const Portfolio = () => {
                 data-aos-anchor-placement="top-center"
                 
                 >
-                    <img src='/images/portfolio5.jpg' alt='' />
+                    <img src='/images/portfolio5.jpg' alt='portimg' />
                     <div>
                         <h3>Cooperate Events</h3>
                         <p>
@@ -108,7 +108,7 @@ export const Portfolio = () => {
                 data-aos-once="false"
                 data-aos-anchor-placement="top-center"
                 >
-                    <img src='/images/portfolio4.jpg' alt='image' />
+                    <img src='/images/portfolio4.jpg' alt='portimg' />
                     <div>
                         <h3>Reality TV Shows</h3>
                         <p>
@@ -125,7 +125,7 @@ export const Portfolio = () => {
             <div className='section-video'>
               <h4 data-aos='slide-up'> Have a glance of our quality video services.</h4>
             <div className="embed-responsive embed-responsive-16by9 mt-5 mb-5 autoplay loop controls muted">
-            <iframe className="embed-responsive-item" src="./video/mobile.mp4"></iframe>
+            <iframe className="embed-responsive-item" title='Vid' src="./video/mobile.mp4"></iframe>
             </div>
             </div>
 
@@ -141,7 +141,7 @@ export const Portfolio = () => {
 
   <Carousel.Item>
     <Image
-      className="d-block w-100"
+      className=" d-block w-100"
       src="./images/slide/slide1.jpg"  height ={450}
       alt="First slide"
     />

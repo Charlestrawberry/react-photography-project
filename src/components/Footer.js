@@ -32,9 +32,30 @@ function Footer() {
                     </div>
                     <div className='footer-link-items'>
                         <h2> Social Media</h2>
-                        <Link to='/'className='footer-link'>Facebook</Link>
-                        <Link to='/' className='footer-link'>Twitter</Link>
-                        <Link to='/' className='footer-link'>LinkedIn</Link>
+
+                        
+                        <a href="https://www.facebook.com/Jimmkason" 
+                         
+                        className="footer-link"
+                        target="_blank" rel="noreferrer" 
+                        aria-label="Facebook" >
+                            Facebook </a>
+
+
+                            <a href='https://twitter.com/officialgmeejay'
+                        className="footer-link"
+                        target="_blank" rel="noreferrer" 
+                        aria-label="twitter" >
+                            Twitter
+                        </a>
+
+
+                        <a href="https://www.facebook.com/Jimmkason" 
+                         
+                        className="footer-link"
+                        target="_blank" rel="noreferrer" 
+                        aria-label="Facebook" >
+                            LinkedIn </a>
                     </div>
                 </div>
             </div>
@@ -45,32 +66,33 @@ function Footer() {
                             GmeeJay Media 
                         </Link>
                     </div>
-                    <small className="website-rights">Website Created by Charlnz Studio <i class="far fa-copyright"></i> 2021</small>
+                    
+                    <small   className="website-rights"> <a href=' https://www.instagram.com/iam_strawb' > Website Created by Charlnz Creative Studio<i class="far fa-copyright"></i> 2021 </a></small>
                     <div className="social-icons">
-                        <Link 
+
+
+                        <a href="https://www.facebook.com/Jimmkason" 
+                         
                         className="social-icon-link facebook"
-                        to="/"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                         aria-label="Facebook" >
-                            <i className="fab fa-facebook-f" />
-                        </Link>
+                            <i className="fab fa-facebook-f" /> </a>
+                        
 
 
-                        <Link 
+                        <a href='https://www.instagram.com/official_gmeejay'
                         className="social-icon-link instagram"
-                        to="/"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                         aria-label="instagram" >
                             <i className="fab fa-instagram" />
-                        </Link>
+                        </a>
 
-                        <Link 
+                        <a href='https://twitter.com/officialgmeejay'
                         className="social-icon-link twitter"
-                        to="/"
-                        target="_blank"
+                        target="_blank" rel="noreferrer" 
                         aria-label="twitter" >
                             <i className="fab fa-twitter" />
-                        </Link>
+                        </a>
 
                     </div>
                 </div>

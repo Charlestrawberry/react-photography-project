@@ -43,8 +43,17 @@ export const Navigation = () =>(
         <div className='Navigation'>
             <div className='box'>
                 <ul className='box-items'>
-                    <li className='box-items-links'><a href='www.instagram.com'></a> <i className='fab fa-instagram' aria-hidden='true'></i></li>
-                    <li className='box-items-links'><a href='http/:wwww.facebook.com'></a> <i className='fab fa-facebook' aria-hidden='true'></i></li>
+                    <li className='box-items-links'><a href='https://www.instagram.com/official_gmeejay'
+                        target="_blank" rel="noreferrer" 
+                        aria-label="instagram" >
+                            <i className="fab fa-instagram" />
+                        </a></li>
+
+
+                    <li className='box-items-links'><a href="https://www.facebook.com/Jimmkason" 
+                         target="_blank" rel="noreferrer" 
+                         aria-label="Facebook" >
+                             <i className="fab fa-facebook" /> </a></li>
                 </ul>
                 <h5 style={{alignItems:'center'}}> Unlimited Joy when you CHOOSE us as your photoshoot plug!!</h5>
             </div>
@@ -53,7 +62,7 @@ export const Navigation = () =>(
 
                 <Styles>
                 <Navbar expand= "lg">
-                <Navbar.Brand href= "/">GmeeJay <font>Media</font></Navbar.Brand>
+                <Navbar.Brand className='bounce-top' href= "/">GmeeJay <font>Media</font></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-nabvabr-nav" />
                 <Navbar.Collapse id= "basic-nabvabr-nav">
                     
@@ -68,8 +77,9 @@ export const Navigation = () =>(
                 </Navbar>
                 </Styles>
                 <div className='icon'>
-                    <i className='fa fa-search' aria-hidden='true'></i>
-                    <i className='fa fa-user' aria-hidden='true'></i>
+                    <a href='https://www.google.com' target="_blank" rel="noreferrer" 
+                         aria-label="Google" ><i className='fa fa-search' aria-hidden='true'></i></a>
+                    <a href ='/Contact'><i className='fa fa-user' aria-hidden='true'></i></a>
                 </div>
                 
 

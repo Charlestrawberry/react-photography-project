@@ -154,6 +154,16 @@
     margin-bottom: 16px;
   }
   
+  
+  .website-rights a{
+    color: white;
+  }
+  
+  .website-rights a:hover{
+    color: white;
+    text-decoration: none;
+  }
+  
   @media screen and (max-width: 820px) {
     .footer-links {
       padding-top: 2rem;

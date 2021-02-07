@@ -4,9 +4,9 @@ import styled from 'styled-components';
 
 
 
+
+
 const Styles = styled.div`
-
-
 
 .Perspective{
     width: 100%;
@@ -29,10 +29,17 @@ const Styles = styled.div`
 
 
 const LoginForm = () => {
+
+    
+
+
     return(
         <Styles>
         <div className='container mr-5 pl-auto form'>
-        <Form name="contact" type="file" method="POST" data-netlify="true">
+        <Form name="contact" action="/Thank you/" type="file" method="POST" 
+        data-netlify="true" >
+        <input type="hidden" name="form-name"  value="contact" />
+
             <Form.Group controlId="exampleForm.ControlInput1">
                 <Form.Label>Full Names</Form.Label>
                 <Form.Control type="text" name="name" placeholder="John Doe" />
@@ -42,15 +49,10 @@ const LoginForm = () => {
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" name="email" placeholder="name@example.com" />
             </Form.Group>
-
-            <Form.Group>
-                    <Form.Label> Enter Your password</Form.Label>
-                    <Form.Control type="password" name="password" placeholder= "Enter Your password" />
-            </Form.Group>
-
+        
             <Form.Group controlId="exampleForm.ControlInput1">
                 <Form.Label>Phone Contact</Form.Label>
-                <Form.Control type="number" placeholder="Phone contact" />
+                <Form.Control type="number" placeholder="080 xxxx xxxx" />
             </Form.Group>
 
             <Form.Group controlId="exampleForm.ControlSelect1">
@@ -60,6 +62,13 @@ const LoginForm = () => {
                 <option value="female" >Female</option>
                 </Form.Control>
             </Form.Group>
+
+            <Form.Group>
+          <Form.Label>
+          <Form.Control type="file" name="file" placeholder="Attachment" />
+    
+          </Form.Label>
+        </Form.Group>
             
             <Form.Group controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Comments</Form.Label>
