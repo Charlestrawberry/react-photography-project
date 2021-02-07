@@ -10,6 +10,7 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
 .vibrate-1 {
+
 	-webkit-animation: vibrate-1 0.3s linear infinite both;
 	        animation: vibrate-1 0.3s linear infinite both;
 }
@@ -70,6 +71,12 @@ const Styles = styled.div`
 
 container{
     padding-right: 70px;
+}
+
+@media screen and (max-width: 768px){
+    .vibrate{
+        font-size: 20px;
+    }
 }
 
 `;
