@@ -11,19 +11,19 @@ const Styles = styled.div`
 .Perspective{
     width: 100%;
 }
+
+
+
 @media screen and (max-width: 1200px){
     .form{
         dispaly: block;
+
+    
     }
 
  
 
-    .perspective{
-        perspective: 500px;
-        font-size: 14px;
-        margin-left:50px;
-    }
-}
+    
 `;
 
 
@@ -35,8 +35,8 @@ const LoginForm = () => {
 
     return(
         <Styles>
-        <div className='container mr-5 pl-auto form'>
-        <Form name="contact" action="/Thank you/" type="file" method="POST" 
+        <div className='container form'>
+        <Form name="contact" action="/Thank You! Cheers!!" type="file" method="POST" 
         data-netlify="true" >
         <input type="hidden" name="form-name"  value="contact" />
 
@@ -70,11 +70,12 @@ const LoginForm = () => {
           </Form.Label>
         </Form.Group>
             
+            <div data-netlify-recaptcha></div>
             <Form.Group controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Comments</Form.Label>
-                <Form.Control as="textarea" name="message" rows={3} placeholder='Write your message here' />
+                <Form.Control as="textarea" name="message" height={200} rows={3} placeholder='Write your message here' />
             </Form.Group>
-            <Button className='form-btn perspective' type="submit"
+            <Button className='form-btn perspective' type="submit" value="submit"
             style={{
                 backgroundColor: 'rgb(77, 10, 23)',
                 border: 'none',

@@ -14,8 +14,8 @@ function Footer() {
                     You can unsubscribe at any time.
                 </p>
                 <div className="input-areas">
-                    <form name="contact" type="file" method="POST" data-netlify="true">
-                        <input type='email' name='email' placeholder='Enter Email'
+                    <form action ='Received. We get back to you soon' name="contact" type="file" method="POST" data-netlify="true">
+                        <input type='email' name='email' placeholder='enter email'
                         className='footer-input'
                         /> 
                         <Button buttonStyle='btn--outline' className='btn-submit'>Subscribe</Button>
