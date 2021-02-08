@@ -122,7 +122,7 @@ export const About = () => {
             </div>
             <div className='col-sm-4 section-testimonials container'> 
                 <img src= './images/black3.jpg' alt='tetimonial'  />
-                <p><cite>Glad to have met Mr Jimmy. He is my sure photo gig guy. I always look forward to have him around my family and he is family go to photo gig <em>guy.</em> </cite> </p>
+                <p><cite>Glad to have met Mr Jimmy. He is my sure photo gig guy. I always look forward to have him around my family and he is my family go to photo gig <em>guy.</em> </cite> </p>
             </div>
             </div>
             </section>
