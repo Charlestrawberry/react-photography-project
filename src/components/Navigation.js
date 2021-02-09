@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
+import {Link } from 'react-router-dom';
 import './Navigation.css'
 
 
@@ -76,11 +77,7 @@ export const Navigation = () =>(
                 </Navbar.Collapse>
                 </Navbar>
                 </Styles>
-                <div className='icon'>
-                    <a href='https://www.google.com' target="_blank" rel="noreferrer" 
-                         aria-label="Google" ><i className='fa fa-search' aria-hidden='true'></i></a>
-                    <a href ='/Contact'><i className='fa fa-user' aria-hidden='true'></i></a>
-                </div>
+                
                 
 
             </div>
