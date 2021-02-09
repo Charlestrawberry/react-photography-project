@@ -125,15 +125,6 @@ export const Home = () => {
             </section>
 
 
-
-
-
-
-
-
-
-
-
         <div className='section-footers'>
         <sections className='soc-media'>
                 <div className="soc-media-wraps">
@@ -144,43 +135,7 @@ export const Home = () => {
                     </div>
                 
                     <small className="website-right">Website created: Charlnz Studio <i class="far fa-copyright"></i> 2021</small>
-                    <div className="social-icon">
-                        <Link 
-                        className="social-link facebook"
-                        to="/"
-                        target="_blank"
-                        aria-label="Facebook" >
-                            <i className="fab fa-facebook-f" />
-                        </Link>
-
-
-                        <Link 
-                        className="social-link instagram"
-                        to="/"
-                        target="_blank"
-                        aria-label="instagram" >
-                            <i className="fab fa-instagram" />
-                        </Link>
-
-
-                        <Link 
-                        className="social-link youtube"
-                        to="/"
-                        target="_blank"
-                        aria-label="youtube" >
-                            <i className="fab fa-youtube" />
-                        </Link>
-
-
-                        <Link 
-                        className="social-link twitter"
-                        to="/"
-                        target="_blank"
-                        aria-label="twitter" >
-                            <i className="fab fa-twitter" />
-                        </Link>
-
-                    </div>
+                    
                 </div>
             </sections>
             </div>
