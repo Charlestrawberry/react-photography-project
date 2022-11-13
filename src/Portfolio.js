@@ -134,7 +134,7 @@ export const Portfolio = () => {
 
         <div className="container carousel">
             <div>
-                <h4 data-aos="zoom-in">Here are some exotic pictures</h4>
+                <h4 data-aos="zoom-in">Here are some wedding exotic pictures</h4>
                 <p> <Link to='/contact' ></Link>Contact us. We are ready to deliver quality work </p>
             </div>
         <Carousel>
@@ -438,6 +438,315 @@ export const Portfolio = () => {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
+
+
+            <div>
+                <h4 data-aos="zoom-in">Co-orperate Pictures</h4>
+                <p> <Link to='/contact' ></Link>Contact us. We are ready to deliver quality work </p>
+            </div>
+<Carousel>
+
+<Carousel.Item>
+  <Image
+    className=" d-block w-100"
+    src="./images/slide/slide26.jpg"  height ={450}
+    alt="First slide"
+  />
+  <Carousel.Caption>
+    <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100"
+    src="./images/slide/slide27.jpg" height ={450}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide28.jpg" height ={450}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide29.jpg" height ={550}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide30.jpg" height ={550}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide31.jpg" height ={550}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <img 
+    className="d-block w-100 "
+    src="./images/slide/slide32.jpg" height ={500}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <img 
+    className="d-block w-100 "
+    src="./images/slide/slide33.jpg" height ={500}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <img 
+    className="d-block w-100 "
+    src="./images/slide/slide34.jpg" height ={500}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <img 
+    className="d-block w-100 "
+    src="./images/slide/slide35.jpg"  height ={550}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image
+    className="d-block w-100"
+    src="./images/slide/slide36.jpg" height ={550}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image
+    className="d-block w-100 "
+    src="./images/slide/slide37.jpg" height ={550}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image
+    className="d-block w-100 "
+    src="./images/slide/slide38.jpg" height ={500}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide39.jpg" height ={500}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide40.jpg" height ={500}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide41.jpg" height ={500}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide42.jpg" height ={500}
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide43.jpg" height ={500}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide44.jpg" height ={500}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image
+    className="d-block w-100 "
+    src="./images/slide/slide45.jpg" height ={450}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image
+    className="d-block w-100 "
+    src="./images/slide/slide46.jpg" height ={450}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide47.jpg" height ={550}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide48.jpg" height ={550}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide49.jpg" height ={500}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+
+<Carousel.Item>
+  <Image 
+    className="d-block w-100 "
+    src="./images/slide/slide50.jpg" height ={400}
+    alt="Third slide"
+  />
+
+  <Carousel.Caption>
+  <h5>GmeeJay Media</h5>
+  </Carousel.Caption>
+</Carousel.Item>
+</Carousel>
+
+
         </div>
         <Footer />
         </div>
